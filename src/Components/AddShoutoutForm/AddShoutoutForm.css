@@ -1,0 +1,43 @@
+.AddShoutoutForm {
+  background-color: #008080;
+  padding: 20px 20px;
+  margin: 20px 0;
+  border-radius: 15px;
+}
+
+.AddShoutoutForm form {
+  display: flex;
+  flex-direction: column;
+}
+
+.AddShoutoutForm input,
+textarea {
+  border-radius: 10px;
+  border: none;
+  padding: 5px 0;
+}
+
+.AddShoutoutForm .to,
+.AddShoutoutForm .from {
+  width: 40%;
+}
+
+.AddShoutoutForm .shoutout {
+  height: 50px;
+}
+
+.AddShoutoutForm button {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 10px;
+  border: none;
+  color: white;
+  background-color: #66b2b2;
+  padding: 5px 5px;
+  border-radius: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+  .AddShoutoutForm {
+    margin: 0px 20px;
+  }
+}

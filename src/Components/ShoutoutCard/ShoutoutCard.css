@@ -1,0 +1,44 @@
+.ShoutoutCard {
+  background-color: #008080;
+  padding: 20px 20px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+
+.ShoutoutCard img.user-photo {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  float: right;
+}
+
+.ShoutoutCard img.upload-photo {
+  max-width: 500px;
+  max-height: 300px;
+  border-radius: 10%;
+  float: none;
+  margin-top: 10px;
+}
+
+.ShoutoutCard .shoutout-text {
+  margin-top: 10px;
+  background-color: #66b2b2;
+  padding: 5px 5px;
+  border-radius: 5px;
+}
+
+.ShoutoutCard a {
+  color: white;
+  text-decoration: none;
+  text-shadow: 0 0 5px white;
+}
+
+.ShoutoutCard .icon-container {
+  width: 25%;
+  display: flex;
+  margin-top: 10px;
+}
+
+.ShoutoutCard i {
+  margin-right: 10px;
+}

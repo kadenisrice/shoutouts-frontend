@@ -1,0 +1,29 @@
+.ShoutoutList .shoutout-list {
+  height: 50vh;
+  overflow: scroll;
+  scrollbar-width: none;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.ShoutoutList .shoutout-list::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.ShoutoutList .shoutout-list {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+@media only screen and (min-width: 768px) {
+  .ShoutoutList {
+    display: flex;
+  }
+
+  .ShoutoutList .shoutout-list {
+    height: 100vh;
+    overflow: scroll;
+    scrollbar-width: none;
+    flex: 1;
+  }
+}
