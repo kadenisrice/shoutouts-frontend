@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import "./Header.css";
 import ShoutoutsContext from "../../Context/ShoutoutsContext/ShoutoutsContext";
 import { useContext } from "react";
-import { signInWithGoogle, signOut } from "../../firebaseApp";
+import { signInWithGoogle, signOut } from "../../firebaseConfig";
 import AuthContext from "../../Context/AuthContext/AuthContext";
 
 const Header = () => {
