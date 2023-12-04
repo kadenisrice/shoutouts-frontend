@@ -3,7 +3,7 @@ import "./AddShoutoutForm.css";
 import Shoutout from "../../Models/Shoutout";
 import ShoutoutsContext from "../../Context/ShoutoutsContext/ShoutoutsContext";
 import AuthContext from "../../Context/AuthContext/AuthContext";
-import { storage } from "../../firebaseConfig";
+import { storage } from "../../firebaseApp";
 import { getDownloadURL, ref, uploadBytes } from "firebase/storage";
 
 const AddShoutoutForm = () => {
